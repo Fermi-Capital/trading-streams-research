@@ -7,6 +7,8 @@
 
 #### Strategies
 - `./start-convergence-tape.sh` - this script runs a peak/valley indicator on several HOLC data timeframes and feedbacks the latest signal. It also combines it with the `MACD` to give some confirmation and gut check, the indicator
+  <img width="521" alt="image" src="https://github.com/user-attachments/assets/1a53c20e-8d21-4b28-bae7-32e100078c50">
+
 - `./start-bot-server.sh` buys/sells asset amounts according to the `src/strategies/pv_wave.py` class constructed in the `server.py` file.
 - `./start-flask.sh` starts up some primitive api endpoints of restructured account data from your kraken account and strategies you may want feedback from. `WIP`
 
