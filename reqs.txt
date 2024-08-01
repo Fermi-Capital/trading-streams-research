@@ -1,0 +1,9 @@
+Flask==3.0.3
+python-dotenv
+flask-cors
+websockets
+colorlog
+numpy
+pandas
+requests
+statsmodels
